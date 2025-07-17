@@ -14,7 +14,6 @@ The goal is to help students, researchers, and professionals interact with long 
 - Powered by Hugging Face LLM (Flan-T5) and LangChain framework
 - Local and free (no OpenAI key required)
 
----
 
 ## Project Structure
 
@@ -25,12 +24,6 @@ langchain-pdf-chatbot/
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview and usage
 
-yaml
-Copy
-Edit
-
----
-
 ## How It Works
 
 1. Loads the PDF file using LangChain's `PyPDFLoader`
@@ -40,7 +33,6 @@ Edit
 5. Accepts user questions and retrieves relevant content
 6. Uses a Hugging Face LLM (`flan-t5-base`) to generate answers
 
----
 
 ## Getting Started
 
